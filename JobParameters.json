@@ -1,0 +1,43 @@
+{
+    "siteVersion": 3,
+    "request": {
+        "application": {
+            "name": "coder-python",
+            "version": "1.66.2"
+        },
+        "product": {
+            "id": "u1-standard-2",
+            "category": "u1-standard",
+            "provider": "ucloud"
+        },
+        "name": "Maternity Foundation - M3",
+        "replicas": 1,
+        "parameters": {
+            "m_var": {
+                "path": "/122974/M3",
+                "type": "file",
+                "readOnly": false
+            }
+        },
+        "resources": [
+        ],
+        "timeAllocation": {
+            "hours": 1440,
+            "minutes": 0,
+            "seconds": 0
+        },
+        "resolvedProduct": null,
+        "resolvedApplication": null,
+        "resolvedSupport": null,
+        "allowDuplicateJob": true,
+        "sshEnabled": false
+    },
+    "resolvedResources": {
+        "ingress": {
+        }
+    },
+    "machineType": {
+        "cpu": 2,
+        "memoryInGigs": 11
+    }
+}
